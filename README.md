@@ -50,6 +50,9 @@ Here's one image shows the ability of this network:
 ![image](https://user-images.githubusercontent.com/42855203/168604592-4a2f43c9-1741-4436-b4fe-5d7d433703aa.jpeg)
 
 ### IOS Application:
+In order to run the model on a IOS Application, I exported the pth model trained by Pytorch into Apple CoreML model and depolyed it onto the mobile phone. Thanks to Ultralytics (https://ultralytics.com/hub), the author of Yolov5 models, we can use camera of our phone to do the detection.
+
+The IOS application mainly has two pages. The first one is shown on left, which is choosing model we want to use to do inference. The main page is shown on the right side. It called the main camera and run the model. The inference time for each frame is desplayed on the top.
 <img width="383" alt="image" src="https://user-images.githubusercontent.com/42855203/168605790-9e9fa29c-b8eb-4036-93ee-ebb7e9142a82.png">
 
 
