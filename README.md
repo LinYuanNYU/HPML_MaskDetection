@@ -30,6 +30,7 @@ the highest mAP we achieved is 83.8%. I did some analysis, the main defective fa
 Here's one image shows the ability of this network:
 
 <img width="623" alt="image" src="https://user-images.githubusercontent.com/42855203/168602742-edb2c4ee-97d0-447d-97ba-68e806849e37.png">
+
 ![GettyImages-1197642798 (3)](https://user-images.githubusercontent.com/42855203/168602655-cceda43d-66ab-4959-ae2b-f68c1b1db35e.jpg)
  
  Here's one image shows that the model also performs well when detecting many objects that are relative small in the image:
@@ -48,11 +49,8 @@ Here's one image shows the ability of this network:
 ![image](https://user-images.githubusercontent.com/42855203/168604592-4a2f43c9-1741-4436-b4fe-5d7d433703aa.jpeg)
 
 ### IOS Application:
-Choosing Models we want to use:
 
 <img width="176" alt="image" src="https://user-images.githubusercontent.com/42855203/168604644-99bc66ed-6009-4446-8fcd-8477d939ef56.png">
-
-Real time Detecting:
 
 <img width="176" alt="image" src="https://user-images.githubusercontent.com/42855203/168604735-85bca621-2e7d-42c7-892c-7f7f26c300da.png">
 
