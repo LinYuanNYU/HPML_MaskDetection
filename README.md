@@ -8,6 +8,9 @@ The dataset has three catagories: wear a mask, not wear a mask, wear a mask inap
 For this part, we did not use imaug python package. I found a powerful online platform can help us to do that: roboflow(https://roboflow.com)
 The augmentation we utilized is shown below:
 <img width="477" alt="Screen Shot 2022-05-16 at 09 13 14" src="https://user-images.githubusercontent.com/42855203/168600517-093f3497-3e69-43c3-9a79-9c527e86005a.png">
+
+<img width="255" alt="image" src="https://user-images.githubusercontent.com/42855203/168605419-6672cf33-947c-4275-8484-c9b8f530850e.png">
+
 I did a 5X dataset augmentation. In the end, the dataset has around 3K images.
 
 ## Training
