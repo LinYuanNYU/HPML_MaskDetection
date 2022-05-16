@@ -40,7 +40,7 @@ Here's one image shows the ability of this network:
  
  ## Predicting
  I deployed the model to three platfroms: Linux server, Desktop Computer and Mobile IOS devices.
- For linux server, it is relative easy, we upload images and inference with the yolov5 model. We can get the detected results.
+ For linux server, it is relative easy, we upload images and inference them with the yolov5 model.
  
  ### Webcam detection:
  
