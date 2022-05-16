@@ -5,8 +5,8 @@ The dataset used in this project is https://www.kaggle.com/datasets/andrewmvd/fa
 The dataset has three catagories: wear a mask, not wear a mask, wear a mask inapporpiately.
 
 ## Data Preprocessing
-For this part, we did not use imaug python package. I found a powerful online platform can help us to do that: roboflow(https://roboflow.com)
-The augmentation we utilized is shown below:
+For this part, I did not use imaug python package. I found a powerful online platform can help us to do that: roboflow(https://roboflow.com)
+The augmentation I utilized is shown below:
 <img width="477" alt="Screen Shot 2022-05-16 at 09 13 14" src="https://user-images.githubusercontent.com/42855203/168600517-093f3497-3e69-43c3-9a79-9c527e86005a.png">
 
 <img width="255" alt="image" src="https://user-images.githubusercontent.com/42855203/168605419-6672cf33-947c-4275-8484-c9b8f530850e.png">
@@ -25,7 +25,7 @@ Yolov5l6 | 1280 | 76.8 | 25.9 | 83.805% |
 Obviously, Yolov5l6 has the best result with input image size as 1280 * 1280. Indeed, in the following test, this model gives nearly perfect results.
 
 ## Evaluation
-the highest mAP we achieved is 83.8%. I did some analysis, the main defective factor is the detection of class "wearing masks inapporpiately". For further improvement, we can focus on this direction. For example, do some class-specific image augmentation of the dataset.
+the highest mAP I achieved is 83.8%. I did some analysis, the main defective factor is the detection of class "wearing masks inapporpiately". For further improvement, we can focus on this direction. For example, do some class-specific image augmentation of the dataset.
 
 Here's one image shows the ability of this network:
 
@@ -40,7 +40,7 @@ Here's one image shows the ability of this network:
  
  ## Predicting
  I deployed the model to three platfroms: Linux server, Desktop Computer and Mobile IOS devices.
- For linux server, it is relative easy, we upload images and inference them with the yolov5 model.
+ For linux server, the inference results are shown above.
  
  ### Webcam detection:
  
